@@ -1,8 +1,10 @@
 //Model: User struct with id, name, email
 
+use serde_derive::{Deserialize, Serialize};
+
 #[derive(Serialize, Deserialize)]
 pub struct User {
-  id: Option<i32>,
-  name: String,
-  email: String,
+  pub id: Option<i32>,
+  pub name: String,
+  pub email: String,
 }

@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 postgres = "0.19"
-srede = "1.0"
-serede_json = "1.0"
-serede_derive = "1.0"
-
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+dotenv = "0.15" 
