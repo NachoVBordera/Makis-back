@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+postgres = "0.19"
+srede = "1.0"
+serede_json = "1.0"
+serede_derive = "1.0"
+
